@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2021.06.06 à 10:48:43 PM WEST 
+
+  -->
+  <bindings xmlns:tns="http://web.webserviceperson.example.com/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.example.consumer.schemas.person"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:getById">
+      <class ref="com.example.consumer.schemas.person.GetById"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getByIdResponse">
+      <class ref="com.example.consumer.schemas.person.GetByIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:person">
+      <class ref="com.example.consumer.schemas.person.Person"/>
+    </bindings>
+  </bindings>
+</bindings>
